@@ -18,8 +18,7 @@ def plot_violin_plots(df):
     plt.subplot(131)
     sns.violinplot(x='lifeExp', data=df)
     plt.title('Life Expectancy')
-    # st.pyplot(plt)
-
+    # st.pyp
     plt.subplot(132)
     sns.violinplot(x='pop', data=df)
     plt.title('Population')
